@@ -1,0 +1,53 @@
+{
+  "examples": {
+    "openai": {
+      "provider": "openai",
+      "model_name": "gpt-4",
+      "max_tokens": 2000,
+      "temperature": 0.7
+    },
+    "anthropic": {
+      "provider": "anthropic", 
+      "model_name": "claude-3-opus-20240229",
+      "max_tokens": 2000,
+      "temperature": 0.7
+    },
+    "google": {
+      "provider": "google",
+      "model_name": "gemini-pro",
+      "max_tokens": 2000,
+      "temperature": 0.7
+    },
+    "meta": {
+      "provider": "meta",
+      "model_name": "meta-llama/Llama-2-70b-chat-hf",
+      "base_url": "https://api.together.xyz/v1/chat/completions",
+      "max_tokens": 2000,
+      "temperature": 0.7
+    },
+    "ollama": {
+      "provider": "ollama",
+      "model_name": "llama3.3:latest",
+      "base_url": "http://localhost:11434",
+      "max_tokens": 2000,
+      "temperature": 0.7
+    }
+  },
+  "model1": {
+    "provider": "openai", 
+    "model_name": "gpt-4",
+    "max_tokens": 2000,
+    "temperature": 0.7
+  },
+  "model2": {
+    "provider": "anthropic", 
+    "model_name": "claude-3-opus-20240229",
+    "max_tokens": 2000,
+    "temperature": 0.7
+  },
+  "conversation": {
+    "stop_condition": "fixed_turns",
+    "max_turns": 8,
+    "output_dir": "conversations"
+  }
+}

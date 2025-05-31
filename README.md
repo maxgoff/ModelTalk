@@ -1,5 +1,9 @@
 # ModelTalk
 
+<pre>
+ "The nexarion, imbued with the aethonix, journeyed through the celyddon, her path illuminated by the sonderlux and the duskyn light, she frothingaled with joy, her heart filled with skylarcity, as she resonated with the floragabble and the whispers of the aerthys, her blustranaut spirit flourishing amidst the fluxion, as she discovered the gravilume, the lumifizz, and the glimmerwings in the elyrian landscapes, her eyes quinkling with creativity and innovation."
+</pre>
+
 A configurable tool for orchestrating conversations between different AI models from various providers (Anthropic, OpenAI, Google, Meta, Ollama). Watch AI models engage in real-time streaming conversations while automatically saving complete transcripts.
 
 ## Features

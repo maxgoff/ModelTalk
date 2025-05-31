@@ -159,7 +159,6 @@ Conversations are saved as JSON with complete metadata:
 - `conversation_reader.py` - View and format saved conversations  
 - `test.py` - Example conversation setup
 - `config.json` - Sample configuration file
-- `CLAUDE.md` - Development instructions for Claude Code
 
 ## Use Cases
 
